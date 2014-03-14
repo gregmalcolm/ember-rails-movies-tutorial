@@ -1,1 +1,7 @@
 <h1>Movies</h1>
+<div class="form-inline" style="text-align: center;">
+  <div class="form-group">
+    {{ input type="search" value=starWars placeholder="Star wars, Matrix, 28 days later, etc" size="60" class="form-control"}}
+    <button {{action "search"}} class="btn btn-primary">Search</button>
+  </div>
+</div>

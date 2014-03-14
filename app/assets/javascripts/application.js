@@ -13,5 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
-//= require ember_libs
+//= require app
 //= require_tree .
