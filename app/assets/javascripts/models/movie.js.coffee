@@ -8,7 +8,7 @@ EmberApp.Movie = DS.Model.extend
 EmberApp.Movie.FIXTURES = [
   {
     id: 100,
-    name: "Star Wars: Episode IV - A New Hope",
+    name: "Star Wars",
     description: "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the universe from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
     year: "1977"
   },

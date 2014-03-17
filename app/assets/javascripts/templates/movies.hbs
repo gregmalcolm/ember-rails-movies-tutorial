@@ -1,15 +1,17 @@
 <h1>Movies</h1>
 <div class="form-inline" style="text-align: center; display:none;">
   <div class="form-group">
-    {{ input type="search" value=starWars placeholder="Star wars, Matrix, 28 days later, etc" size="60" class="form-control"}}
+    {{ input type="search" placeholder="Star wars, Matrix, 28 days later, etc" size="60" class="form-control"}}
     <button {{action "search"}} class="btn btn-primary">Search</button>
   </div>
 </div>
-<div class="col-sm-3">
-  <ul style="list-style:none; ">
-    {{#each movie in content}}
-    <li>{{link-to movie.name "movies.show" movie}}</li>
-    {{/each}}
-  </ul>
+<div class="row">
+  <div class="col-sm-3">
+    <ul style="list-style:none; ">
+      {{ partial "movies/_sidebar" }}
+    </ul>
+  </div>
+  <div class="col-sm-9">
+    {{outlet}}
+  </div>
 </div>
-{{ outlet }}

@@ -8,3 +8,4 @@ EmberApp.MoviesRoute = Ember.Route.extend
     search: ->
       #content = @get("store").findAll("movie")
       #@set(content)
+

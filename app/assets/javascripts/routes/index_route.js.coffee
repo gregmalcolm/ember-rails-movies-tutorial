@@ -2,4 +2,4 @@
 
 EmberApp.IndexRoute = Ember.Route.extend
   redirect: (params) ->
-    @transitionTo("movies")
+    @transitionTo("movies.index")
