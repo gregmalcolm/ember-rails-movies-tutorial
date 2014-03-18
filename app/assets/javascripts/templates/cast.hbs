@@ -1,0 +1,13 @@
+<h3>Cast</h3>
+<div class="row">
+  <div class="col-sm-2">
+    {{#each actor in content}}
+      <ul style="list-style:none; ">
+        <li>{{actor.name}}</li>
+      </ul>
+    {{/each}}
+  </div>
+  <div class="col-sm-10">
+    {{ outlet }}
+  </div>
+</div>
