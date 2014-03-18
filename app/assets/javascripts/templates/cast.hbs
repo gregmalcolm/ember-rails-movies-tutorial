@@ -1,9 +1,9 @@
-<h3>Cast</h3>
 <div class="row">
   <div class="col-sm-2">
+    <h3>Cast</h3>
     {{#each actor in content}}
       <ul style="list-style:none; ">
-        <li>{{actor.name}}</li>
+        <li>{{link-to actor.name "cast.show" actor}}</li>
       </ul>
     {{/each}}
   </div>

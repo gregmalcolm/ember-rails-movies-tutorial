@@ -1,3 +1,3 @@
 
-EmberApp.MovieActorsController = Ember.ArrayController.extend({
+EmberApp.CastController = Ember.ArrayController.extend({
 })

@@ -20,7 +20,7 @@ EmberApp.Actor.FIXTURES = [
     id: 201,
     name: "Harrison Ford",
     gender: "M",
-    bio: """Harrison Ford (born July 13, 1942) is an American film actor and producer. He is famous for his performances as Han Solo in the original Star Wars trilogy and the title character of the Indiana Jones film series. Ford is also known for his roles as Rick Deckard in Blade Runner, John Book in Witness and Jack Ryan in Patriot Games and Clear and Present Danger. His career has spanned six decades and includes roles in several Hollywood blockbusters, including Apocalypse Now, Presumed Innocent, The Fugitive, Air Force One, and What Lies Beneath. At one point, four of the top six box-office hits of all time included one of his roles.[1] Five of his films have been inducted into the National Film Registry.\nIn 1997, Ford was ranked No. 1 in Empire's "The Top 100 Movie Stars of All Time" list. As of July 2008, the United States domestic box office grosses of Ford's films total over US$3.5 billion, with worldwide grosses surpassing $6 billion, making Ford the third highest grossing U.S. domestic box-office star.[2] Ford is the husband of actress Calista Flockhart."""
+    bio: """Harrison Ford (born July 13, 1942) is an American film actor and producer. He is famous for his performances as Han Solo in the original Star Wars trilogy and the title character of the Indiana Jones film series. Ford is also known for his roles as Rick Deckard in Blade Runner, John Book in Witness and Jack Ryan in Patriot Games and Clear and Present Danger. His career has spanned six decades and includes roles in several Hollywood blockbusters, including Apocalypse Now, Presumed Innocent, The Fugitive, Air Force One, and What Lies Beneath. At one point, four of the top six box-office hits of all time included one of his roles. Five of his films have been inducted into the National Film Registry.\nIn 1997, Ford was ranked No. 1 in Empire's "The Top 100 Movie Stars of All Time" list. As of July 2008, the United States domestic box office grosses of Ford's films total over US$3.5 billion, with worldwide grosses surpassing $6 billion, making Ford the third highest grossing U.S. domestic box-office star. Ford is the husband of actress Calista Flockhart."""
     born: "1942-07-13"
     appearances: [100, 103]
   },
@@ -36,7 +36,7 @@ EmberApp.Actor.FIXTURES = [
     id: 203,
     name: "Keanu Reeves",
     gender: "M",
-    bio: """Keanu Charles Reeves (/keɪˈɑːnuː/ kay-ah-noo; born September 2, 1964)[2] is a Canadian actor. Reeves is known for his roles in Bill & Ted's Excellent Adventure, Speed, Point Break, and The Matrix trilogy as Neo. He has collaborated with major directors such as Stephen Frears (in the 1988 period drama Dangerous Liaisons); Gus Van Sant (in the 1991 independent film My Own Private Idaho); and Bernardo Bertolucci (in the 1993 film Little Buddha). Referring to his 1991 film releases, The New York Times' critic, Janet Maslin, praised Reeves' versatility, saying that he "displays considerable discipline and range. He moves easily between the buttoned-down demeanor that suits a police procedural story and the loose-jointed manner of his comic roles."[3] A repeated theme in roles he has portrayed is that of saving the world, including the characters of Ted Logan, Buddha, Neo, Johnny Mnemonic, John Constantine and Klaatu."""
+    bio: """Keanu Charles Reeves (/keɪˈɑːnuː/ kay-ah-noo; born September 2, 1964) is a Canadian actor. Reeves is known for his roles in Bill & Ted's Excellent Adventure, Speed, Point Break, and The Matrix trilogy as Neo. He has collaborated with major directors such as Stephen Frears (in the 1988 period drama Dangerous Liaisons); Gus Van Sant (in the 1991 independent film My Own Private Idaho); and Bernardo Bertolucci (in the 1993 film Little Buddha). Referring to his 1991 film releases, The New York Times' critic, Janet Maslin, praised Reeves' versatility, saying that he "displays considerable discipline and range. He moves easily between the buttoned-down demeanor that suits a police procedural story and the loose-jointed manner of his comic roles." A repeated theme in roles he has portrayed is that of saving the world, including the characters of Ted Logan, Buddha, Neo, Johnny Mnemonic, John Constantine and Klaatu."""
     born: "1964-09-02"
     appearances: [101]
   },
@@ -44,7 +44,7 @@ EmberApp.Actor.FIXTURES = [
     id: 204,
     name: "Laurence Fishburne",
     gender: "M",
-    bio: """Laurence John Fishburne III[1] (born July 30, 1961) is an American actor, playwright, director, and producer. He is best known for his roles as Morpheus in the Matrix science fiction film trilogy, Clean in Apocalypse Now, Cowboy Curtis on the television show Pee-wee's Playhouse, Ike Turner in the Tina Turner biopic What's Love Got to Do With It and as Furious Styles in Boyz n the Hood. He became the first African-American to portray Othello in a motion picture by a major studio when he appeared in Oliver Parker's 1995 film adaptation of the Shakespeare play. He won a Tony Award for Best Featured Actor in a Play for his performance in Two Trains Running (1992), and an Emmy Award for Drama Series Guest Actor for his performance in TriBeCa (1993)."""
+    bio: """Laurence John Fishburne III (born July 30, 1961) is an American actor, playwright, director, and producer. He is best known for his roles as Morpheus in the Matrix science fiction film trilogy, Clean in Apocalypse Now, Cowboy Curtis on the television show Pee-wee's Playhouse, Ike Turner in the Tina Turner biopic What's Love Got to Do With It and as Furious Styles in Boyz n the Hood. He became the first African-American to portray Othello in a motion picture by a major studio when he appeared in Oliver Parker's 1995 film adaptation of the Shakespeare play. He won a Tony Award for Best Featured Actor in a Play for his performance in Two Trains Running (1992), and an Emmy Award for Drama Series Guest Actor for his performance in TriBeCa (1993)."""
     born: "1961-07-30"
     appearances: [101]
   },
@@ -68,7 +68,7 @@ EmberApp.Actor.FIXTURES = [
     id: 207,
     name: "Naomie Harris",
     gender: "F",
-    bio: """Naomie Melanie Harris[1] (born 6 September 1976)[1] is a British actress. She played Eve Moneypenny in the James Bond film, Skyfall, The Voodoo Witch Tia Dalma/Calypso in the second and third Pirates of the Caribbean films, Selena in 28 Days Later, and Winnie Mandela in Mandela: Long Walk to Freedom."""
+    bio: """Naomie Melanie Harris (born 6 September 1976) is a British actress. She played Eve Moneypenny in the James Bond film, Skyfall, The Voodoo Witch Tia Dalma/Calypso in the second and third Pirates of the Caribbean films, Selena in 28 Days Later, and Winnie Mandela in Mandela: Long Walk to Freedom."""
     born: "1976-09-06"
     appearances: [102]
   },
