@@ -1,2 +1,6 @@
-<h1>Movie Actors</h1>
-{{outlet}}
+<h1>Cast</h1>
+{{#each actor in content}}
+  <ul style="list-style:none; ">
+    <li>{{actor.name}}</li>
+  </ul>
+{{/each}}
