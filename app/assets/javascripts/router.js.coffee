@@ -3,16 +3,11 @@
 EmberApp.Router.map ()->
   @resource 'movies', ->
     @route 'new'
-    @resource 'movies.show', path: ':movie_id', ->
-    @resource 'movies.edit', path: ':actor_id/edit', ->
-      @resource 'movies_actors', ->
+    @resource 'movie', path: ':movie_id', ->
+      @resource 'movie_actors', ->
         @route 'show', path: ':actor_id'
-        @route 'edit', path: ':actor_id/edit'
   @resource 'actors', ->
     @route 'new'
-    @resource 'actors.show', path: ':actor_id'
-    @resource 'actors.edit', path: ':actor_id/edit', ->
-      @resource 'actors_movies', ->
+    @resource 'actor', path: ':actor_id', ->
+      @resource 'actor_movies', ->
         @route 'show', path: ':movie_id'
-        @route 'edit', path: ':movie_id/edit'
-
