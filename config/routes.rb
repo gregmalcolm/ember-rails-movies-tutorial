@@ -1,8 +1,6 @@
 EmberRailsMoviesTutorial::Application.routes.draw do
   resources :cards
-
   resources :actors
-
   resources :movies
 
   root 'movies#index'
