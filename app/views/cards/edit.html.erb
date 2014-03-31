@@ -1,6 +1,56 @@
-<h1>Editing card</h1>
+<h1>Card details</h1>
 
-<%= render 'form' %>
+<%= form_for(@card) do |f| %>
+  <% if @card.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@card.errors.count, "error") %> prohibited this card from being saved:</h2>
 
-<%= link_to 'Show', @card %> |
+      <ul>
+      <% @card.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :done %><br>
+    <%= f.check_box :done %>
+  </div>
+  <p>
+    <strong>Title:</strong>
+    <%= @card.title %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= @card.description %>
+  </p>
+
+  <p>
+    <strong>Difficulty:</strong>
+    <%= @card.difficulty %>
+  </p>
+
+  <p>
+    <strong>Comments:</strong>
+    <%= @card.comments %>
+  </p>
+
+  <p>
+    <strong>Clue1:</strong>
+    <%= @card.clue1 %>
+  </p>
+
+  <p>
+    <strong>Clue2:</strong>
+    <%= @card.clue2 %>
+  </p>
+
+  <p>
+    <strong>Clue3:</strong>
+    <%= @card.clue3 %>
+  </p>
+<% end %>
+
 <%= link_to 'Back', cards_path %>
