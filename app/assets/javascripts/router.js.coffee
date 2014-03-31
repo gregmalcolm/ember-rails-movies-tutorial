@@ -11,3 +11,4 @@ EmberApp.Router.map ()->
     @resource 'actor', path: ':actor_id', ->
       @resource 'appearances', ->
         @route 'show', path: ':movie_id'
+  @resource 'cards'
