@@ -20,7 +20,9 @@ On starting rails server the application will be availalble here:
 http://localhost:3000
 
 Click on the cards link on the top right of the screen to see what needs doing.
-Mark cards as done as you work through them using the "edit" link.
+Mark cards as done as you work through them using the "Details" link.
+
+Need extra help? Each card has 3 clues that can be accessed through Details page
 
 Chrome is probably the easiest browser for this as it you can install the Ember
 Inspector, and it supports the placement of breakpoints by placing the word
