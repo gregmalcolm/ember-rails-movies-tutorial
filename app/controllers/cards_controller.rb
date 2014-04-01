@@ -28,7 +28,7 @@ class CardsController < ApplicationController
 
     respond_to do |format|
       if @card.save
-        format.html { redirect_to @card, notice: 'Card was successfully created.' }
+        format.html { redirect_to cards_url, notice: 'Card was successfully created.' }
         format.json { render action: 'show', status: :created, location: @card }
       else
         format.html { render action: 'new' }
@@ -42,7 +42,7 @@ class CardsController < ApplicationController
   def update
     respond_to do |format|
       if @card.update(card_params)
-        format.html { redirect_to @card, notice: 'Card was successfully updated.' }
+        format.html { redirect_to cards_url, notice: 'Card was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

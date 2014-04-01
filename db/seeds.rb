@@ -22,7 +22,8 @@ else
               difficulty: DIFFICULTY_1,
               comments: "We're implementing the /#/actors url specifically. Should look similar to /#/movies",
               clue1: "The implementation is almost identical to movies counterpart",
-              clue2: "The Ember Inspector is your friend"
+              clue2: "The Ember Inspector is your friend",
+              clue3: """If you stick the word 'debugger' in your js/coffeescript, this will behave like a breakpoint"""
   Card.create done: false,
               title: "Actor links should go show actor panel",
               description: "Clicking on each each Actor name should cause an actor pane to show up on the right.",
@@ -54,7 +55,7 @@ else
               comments: "This is pretty much the same information that would be shown for the 'Show Actor Details' card, but its embedded into the movies page",
               clue1: "The 'show' route is already configured in the Router",
               clue2: "Use the Ember Inspector to figure out which template to use",
-              clue3: "Try embedding {{content}} in the show page if you're not seeing anything"
+              clue3: "Still stuck? Take a look at how I did it on the exploratory branch (https://github.com/gregmalcolm/ember-rails-movies-tutorial/tree/exploratory)"
   Card.create done: false,
               title: "Show actor appearance movie details",
               description: "When viewing an actor, turn the movie appearances into links. Clicking on these links should show the movie appearance detail on the right of the list.",
@@ -62,7 +63,7 @@ else
               comments: "Try the 'Show movie cast actor bios' card first. It'll be easier",
               clue1: "Don't forget to create a show page route for appearances",
               clue2: "Use the Ember Inspector to figure out which template to use",
-              clue3: "Take a break"
+              clue3: "Try embedding {{content}} in the show page if you're not seeing anything"
   Card.create done: false,
               title: "Add Edit/Save and Cancel buttons to Movie template",
               description: "Add Edit, Save and Cancel buttons to the Movie page. Display the Save and Cancel buttons when in Edit mode, and the Edit button otherwise",
