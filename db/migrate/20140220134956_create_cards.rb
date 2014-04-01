@@ -1,5 +1,5 @@
 class CreateCards < ActiveRecord::Migration
-  def change
+  def up
     create_table :cards do |t|
       t.boolean :done
       t.string :title
@@ -12,5 +12,9 @@ class CreateCards < ActiveRecord::Migration
 
       t.timestamps
     end
+  end
+
+  def down
+    raise ActiveRecord::IrreversibleMigration
   end
 end
