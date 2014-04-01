@@ -6,6 +6,8 @@ EmberApp.Movie = DS.Model.extend
   description: DS.attr 'string'
   cast: DS.hasMany 'actor', {async: true}
 
+EmberApp.MovieAdapter = DS.FixtureAdapter
+
 EmberApp.Movie.FIXTURES = [
   {
     id: 100,

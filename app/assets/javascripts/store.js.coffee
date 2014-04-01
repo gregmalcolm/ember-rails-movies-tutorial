@@ -1,7 +1,18 @@
 # http://emberjs.com/guides/models/using-the-store/
 
 EmberApp.Store = DS.Store.extend({
-  # Override the default adapter with the `DS.ActiveModelAdapter` which
-  # is built to work nicely with the ActiveModel::Serializers gem.
-  #adapter: '_ams'
+  adapter: DS.RESTAdapter
 })
+
+#
+# For Rails's benefit, use underscored names
+#
+EmberApp.ApplicationAdapter = DS.RESTAdapter.extend(pathForType: (type) ->
+  underscored = Ember.String.underscore(type)
+  Ember.String.pluralize underscored
+)
+
+EmberApp.ApplicationSerializer = DS.RESTSerializer.extend
+  serializeIntoHash: (data, type, record, options) ->
+    root = Ember.String.decamelize(type.typeKey)
+    data[root] = @serialize(record, options)

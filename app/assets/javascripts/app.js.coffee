@@ -9,4 +9,4 @@ window.EmberApp = Ember.Application.create(
   LOG_TRANSITIONS: true
 )
 
-EmberApp.ApplicationAdapter = DS.FixtureAdapter.extend()
+EmberApp.ApplicationAdapter = DS.RESTAdapter.extend()
