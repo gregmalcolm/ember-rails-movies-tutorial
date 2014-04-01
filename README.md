@@ -7,8 +7,7 @@ cards.
 Setup
 -----
 ```
-rake db:migrate
-rake db:seed
+rake db:setup
 ```
 
 rails server
