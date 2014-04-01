@@ -26,11 +26,13 @@
     <col>
     <col>
     <col>
+    <col>
     <col style="width: 100px;">
   </colgroup>
   <thead>
     <tr>
-      <th class="sorttable_sorted">Done<span id="sorttable_sortfwdind">&nbsp;▾</span></th>
+      <th class="sorttable_sorted"><span id="sorttable_sortfwdind">&nbsp;▾</span></th>
+      <th>Done?</th>
       <th>Title</th>
       <th>Description</th>
       <th>Difficulty</th>
@@ -42,6 +44,7 @@
   <tbody>
     <% @cards.each do |card| %>
       <tr>
+        <td><%= card.id %></td>
         <td>
           <span class="glyphicon glyphicon-<%= card.done ? "ok" : "remove" %>">
           </span>
