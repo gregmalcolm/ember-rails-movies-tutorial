@@ -1,3 +1,5 @@
+<%= javascript_include_tag "sorttable" %>
+
 <h1>Listing cards</h1>
 
 <div class="row">
@@ -19,7 +21,7 @@
   </div>
 </div>
 
-<table class="table table-striped table-hover">
+<table class="table table-striped table-hover sortable">
   <colgroup>
     <col>
     <col>
@@ -28,7 +30,7 @@
   </colgroup>
   <thead>
     <tr>
-      <th>Done</th>
+      <th class="sorttable_sorted">Done<span id="sorttable_sortfwdind">&nbsp;▾</span></th>
       <th>Title</th>
       <th>Description</th>
       <th>Difficulty</th>
