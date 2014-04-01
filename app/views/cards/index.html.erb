@@ -1,5 +1,24 @@
 <h1>Listing cards</h1>
 
+<div class="row">
+  <div class="col-sm-1">
+    <div class="checkbox">
+      <label class="control-label">
+        <input type="checkbox" class="js-completed">
+        Completed
+      </label>
+    </div>
+  </div>
+  <div class="col-sm-11">
+    <div class="checkbox">
+      <label class="control-label">
+        <input type="checkbox" class="js-uncompleted" checked>
+        Uncompleted
+      </label>
+    </div>
+  </div>
+</div>
+
 <table class="table table-striped table-hover">
   <colgroup>
     <col>
@@ -37,3 +56,17 @@
 <br>
 
 <%= link_to 'New Card', new_card_path %>
+
+<script language="javascript">
+  $().ready(function() {
+    $("td span[class*=ok]").closest("tr").hide();
+  });
+
+  $(".js-completed").on("change", function(e) {
+    $("td span[class*=ok]").closest("tr").toggle(e.target.checked)
+  });
+  $(".js-uncompleted").on("change", function(e) {
+    $("td span[class*=remove]").closest("tr").toggle(e.target.checked)
+  });
+
+</script>
