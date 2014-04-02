@@ -73,7 +73,7 @@ else
               clue2: "Use the Ember Inspector to figure out which template to use",
               clue3: "Try embedding {{content}} in the show page if you're not seeing anything"
   Card.create done: false,
-              title: "Movie Editing - Add Edit/Save and Cancel buttons to Movie template",
+              title: "Movie Editing - Add Save and Cancel buttons to Movie template",
               description: "Add Edit, Save and Cancel buttons to the Movie page.",
               difficulty: DIFFICULTY_4,
               comments: "Display the Save and Cancel buttons when in Edit mode, and the Edit button otherwise. Edit mode will be decided by a property in the controller called 'isEditing'. Use the Ember Inspector to figure out the name of the controller and what class of controller you are overriding. Actions can be sent to the controller by adding actions to the buttons.",
