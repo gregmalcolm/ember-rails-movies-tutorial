@@ -22,7 +22,7 @@
     {{#each card in content}}
       <tr>
         <td>{{ card.id }}</td>
-        <td>{{ card.done }}</td>
+        <td><span {{bind-attr class=":glyphicon done:glyphicon-ok:glyphicon-remove"}}></span></td>
         <td>{{ card.title }}</td>
         <td>{{ card.description }}</td>
         <td>{{ card.difficulty }}</td>
