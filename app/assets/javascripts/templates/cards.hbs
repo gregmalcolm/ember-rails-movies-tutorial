@@ -1,0 +1,34 @@
+<table class="table table-striped table-hover sortable">
+  <colgroup>
+    <col>
+    <col>
+    <col>
+    <col>
+    <col style="width: 100px;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th class="sorttable_sorted"><span id="sorttable_sortfwdind">&nbsp;▾</span></th>
+      <th>Done?</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Difficulty</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {{#each card in content}}
+      <tr>
+        <td>{{ card.id }}</td>
+        <td>{{ card.done }}</td>
+        <td>{{ card.title }}</td>
+        <td>{{ card.description }}</td>
+        <td>{{ card.difficulty }}</td>
+        <td>Details</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
